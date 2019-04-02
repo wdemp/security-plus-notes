@@ -25,3 +25,24 @@ A protocol analyzer will capture packets and timestamp each one. This tells you 
 - AES is the successor to DES/3DES and is another symmetric key encryption standard composed of three different versions of block ciphers: AES-128, AES-192, and AES-256. Actually, each of these has the same 128-bit cipher block size, but the key sizes for each are 128-bit, 192-bit, and 256-bit, respectively.
 
 - The RSA encryption protocol is an asymmetric algorithm used for the key exchange during secure web sessions. Other options for key exchange include Diffie-Hellman and elliptic curve, with or without ephemeral properties.
+
+- 512-bit RSA keys have proven to be breakable over a decade ago; however, 1024-bit keys are currently considered unbreakable by most known technologies, but RSA still recommends using the longer 2048-bit key, which should deter even the most powerful super hackers. It is important to note that asymmetric algorithm keys need to be much larger than their symmetric key counterparts to be as effective. For example, a 128-bit symmetric key is essentially equal to a 2304-bit asymmetric key in strength.
+
+## Attacks
+- The IV (initialization vector) attack is when an attacker deciphers the fixed-size input at the beginning of each WEP or WPA packet. WEP is much more susceptible. To avoid the attack, use WPA2. 
+- An evil twin is a rogue access point that is controlled by an attacker. It has the same name and configuration as one of the legitimate WAPs in an organization.
+- A replay attack is a network attack in which data packets are repeated or delayed by an outside attacker. 
+
+- Signatures are the patterns that an **IDS** looks for when detecting attacks. 
+
+
+## Authentication
+- Radius
+- Diameter
+- LDAP 
+- Kerberos 
+
+
+## Hashing 
+- A **collision** occurs when a hashing algorithm creates the same hash from two different messages.
+- 
