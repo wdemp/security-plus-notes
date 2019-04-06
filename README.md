@@ -45,4 +45,8 @@ A protocol analyzer will capture packets and timestamp each one. This tells you 
 
 ## Hashing 
 - A **collision** occurs when a hashing algorithm creates the same hash from two different messages.
-- 
+
+
+## Hashing vs encryption
+- Encryption can be reversed with password / keys
+- Hashes are one way operations. Although you can use rainbow tables to find existing hashes and crack passwords
