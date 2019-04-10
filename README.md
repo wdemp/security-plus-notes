@@ -9,7 +9,7 @@ security-plus-notes
 ## Virus , Work , Trojan 
 - A virus is designed to spread from one file to another file on an individual computer. It is not designed to automatically spread from one system to another; that would be a worm.
 - A Trojan is malicious code that appears to do something legitimate but does something illegitimate outside the view of the user.
-
+- A Trojan can only hurt the User's computer when it is clicked on. In other words user interaction is crucial for the virus to work. For example if the virus is sent to someone through email with an attachment. As long as the attachment is never opened (executed) it cannot do the harm or whatever malicious intent it was intended to do to the user's system. It will lie dormant in your email (in this scenario). It cannot harm your system unless is is executed. A worm on the other hand can and will start doing whatever it was programmed to do once contact with the system is made.
 
 ## Protocol Analyzer 
 A protocol analyzer will capture packets and timestamp each one. This tells you exactly what type of packets were captured and when. If the timestamps correspond to the network activity spikes, you know you have a match for the time. By digging into the packets with a protocol analyzer, you can find out exactly what type of traffic is causing the activity. 
@@ -27,7 +27,7 @@ A protocol analyzer will capture packets and timestamp each one. This tells you 
 - The RSA encryption protocol is an asymmetric algorithm used for the key exchange during secure web sessions. Other options for key exchange include Diffie-Hellman and elliptic curve, with or without ephemeral properties.
 
 - 512-bit RSA keys have proven to be breakable over a decade ago; however, 1024-bit keys are currently considered unbreakable by most known technologies, but RSA still recommends using the longer 2048-bit key, which should deter even the most powerful super hackers. It is important to note that asymmetric algorithm keys need to be much larger than their symmetric key counterparts to be as effective. For example, a 128-bit symmetric key is essentially equal to a 2304-bit asymmetric key in strength.
-
+-RC4 encryption 
 ## Attacks
 - The IV (initialization vector) attack is when an attacker deciphers the fixed-size input at the beginning of each WEP or WPA packet. WEP is much more susceptible. To avoid the attack, use WPA2. 
 - An evil twin is a rogue access point that is controlled by an attacker. It has the same name and configuration as one of the legitimate WAPs in an organization.
