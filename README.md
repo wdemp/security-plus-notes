@@ -27,8 +27,10 @@ A protocol analyzer will capture packets and timestamp each one. This tells you 
 - The RSA encryption protocol is an asymmetric algorithm used for the key exchange during secure web sessions. Other options for key exchange include Diffie-Hellman and elliptic curve, with or without ephemeral properties.
 
 - 512-bit RSA keys have proven to be breakable over a decade ago; however, 1024-bit keys are currently considered unbreakable by most known technologies, but RSA still recommends using the longer 2048-bit key, which should deter even the most powerful super hackers. It is important to note that asymmetric algorithm keys need to be much larger than their symmetric key counterparts to be as effective. For example, a 128-bit symmetric key is essentially equal to a 2304-bit asymmetric key in strength.
--RC4 encryption 
+-RC4(Rivest Cipher 4)- a 128 bit stream cipher
 3DES( Triple Data Encryption Standard)- a form of symmetric key encrpytion that uses DES cipher three (3) times. The maximum size for encryption is 56 bits per DES key. 3 X 56= 168 bits. The 3DES cipher uses 3 different keys and is able to protect computers, systems etc against brute force attacks. 
+-TwoFish a block cipher algorithm that operates on a 128 bit block of data that is capable of using crytographic keys up to 256 bits in length.
+Diffie Helman- a means of securely generating symmetric encryption keys across an insecure medium. 
 ## Attacks
 - The IV (initialization vector) attack is when an attacker deciphers the fixed-size input at the beginning of each WEP or WPA packet. WEP is much more susceptible. To avoid the attack, use WPA2. 
 - An evil twin is a rogue access point that is controlled by an attacker. It has the same name and configuration as one of the legitimate WAPs in an organization.
