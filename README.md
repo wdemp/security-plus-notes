@@ -14,13 +14,12 @@ security-plus-notes
 ## Protocol Analyzer 
 A protocol analyzer will capture packets and timestamp each one. This tells you exactly what type of packets were captured and when. If the timestamps correspond to the network activity spikes, you know you have a match for the time. By digging into the packets with a protocol analyzer, you can find out exactly what type of traffic is causing the activity. 
 
-
-
+Threat Actors
+Script Kiddies: Runs premade scripts without any knowledge of what's really happening
 
 ## Encryption
 - The Data Encryption Standard (DES) is an older type of block cipher selected by the U.S. federal government back in the 1970s as its encryption standard. 
-
-
+RC4 Encryption: Still widely used today, however the more advanced RC5 and RC6 is more.
 
 - AES is the successor to DES/3DES and is another symmetric key encryption standard composed of three different versions of block ciphers: AES-128, AES-192, and AES-256. Actually, each of these has the same 128-bit cipher block size, but the key sizes for each are 128-bit, 192-bit, and 256-bit, respectively.
 
