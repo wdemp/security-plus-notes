@@ -30,6 +30,7 @@ RC4 Encryption: Still widely used today, however the more advanced RC5 and RC6 i
 3DES( Triple Data Encryption Standard)- a form of symmetric key encrpytion that uses DES cipher three (3) times. The maximum size for encryption is 56 bits per DES key. 3 X 56= 168 bits. The 3DES cipher uses 3 different keys and is able to protect computers, systems etc against brute force attacks. 
 -TwoFish a block cipher algorithm that operates on a 128 bit block of data that is capable of using crytographic keys up to 256 bits in length.
 Diffie Helman- a means of securely generating symmetric encryption keys across an insecure medium. 
+Rijndael: is the algorithm that has been selected by the U.S. National Institute of Standards and Technology (NIST) as the candidate for the Advanced Encryption Standard (AES).(Note: tlhis is most likely irrelevant; the chances of you seeing this on the exam are slim. This is the only question I have seen on the practice test) The Question: An administrator would like to utilize encryption that has comparable speed and strength to the AES cipher without using AES itself. The cipher should be able to operate in the same modes as AES and utilize the same minimum bit strength. Which of the following algorithms should the administrator select?
 ## Attacks
 - The IV (initialization vector) attack is when an attacker deciphers the fixed-size input at the beginning of each WEP or WPA packet. WEP is much more susceptible. To avoid the attack, use WPA2. 
 - An evil twin is a rogue access point that is controlled by an attacker. It has the same name and configuration as one of the legitimate WAPs in an organization.
@@ -52,3 +53,4 @@ Diffie Helman- a means of securely generating symmetric encryption keys across a
 ## Hashing vs encryption
 - Encryption can be reversed with password / keys
 - Hashes are one way operations. Although you can use rainbow tables to find existing hashes and crack passwords
+HMAC: Hasm Message Authentication Code: It's a message authentication code obtained by running a cryptographic hash function (like MD5, SHA1, and SHA256) over the data (to be authenticated) and a shared secret key. HMAC is specified in RFC 2104. HMACs are almost similar to digital signatures. They both enforce integrity and authenticity. They both use cryptographic keys. And they both employ hash functions. The main difference is that digital signatures use asymmetric keys, while HMACs use symmetric keys.  
