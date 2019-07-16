@@ -59,4 +59,5 @@ HMAC: Hasm Message Authentication Code: It's a message authentication code obtai
 
 Mail Certificates: PEM file
 Base64-encoded certificate file, such as a PEM-encoded X509 certificate; used to authenticate a secure website; typically imported from a Unix-based Apache Web server and compatible with OpenSSL applications.
-PEM certificate files are generated automatically and are not meant to be opened or edited manually. Some secure websites may ask users to upload a PEM file (possibly sent in an e-mail) in order to authenticate their identity.
+PEM certificate files are generated automatically and are not meant to be opened or edited manually. Some secure websites may ask users to upload a PEM file (possibly sent in an e-mail) in order to authenticate their identity. 
+Source: https://fileinfo.com/extension/pem
