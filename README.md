@@ -54,3 +54,4 @@ Rijndael: is the algorithm that has been selected by the U.S. National Institute
 - Encryption can be reversed with password / keys
 - Hashes are one way operations. Although you can use rainbow tables to find existing hashes and crack passwords
 HMAC: Hasm Message Authentication Code: It's a message authentication code obtained by running a cryptographic hash function (like MD5, SHA1, and SHA256) over the data (to be authenticated) and a shared secret key. HMAC is specified in RFC 2104. HMACs are almost similar to digital signatures. They both enforce integrity and authenticity. They both use cryptographic keys. And they both employ hash functions. The main difference is that digital signatures use asymmetric keys, while HMACs use symmetric keys.  
+PEM file
